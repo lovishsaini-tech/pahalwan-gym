@@ -1,0 +1,277 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+#d1{
+    align-items: center;
+    background-color: black;
+    display:block;
+    height: 120px;
+}
+#a6{
+    margin-right: 45px;
+}
+.hea{
+    text-align:right ;
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+    padding: 6px;
+    display: inline;
+    transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+}
+.hea:hover{
+    text-align:right ;
+    color: black;
+    background-color: #34a9c9;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: white;
+    padding: 6px;
+    display: inline;
+    transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+    box-shadow: 2px 2px 100px +30px #34a9c9;
+}
+#i1{
+    text-align:right ;
+    color:black;
+    text-decoration:none;;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    border-radius: 12.5px;
+}
+#b1{
+    background-color:gold;
+    height: 25px;
+    border-radius: 12.5px;
+}
+
+#i1:hover{
+    text-align:right ;
+    color:black;
+    text-decoration:none;;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;;
+    border-radius: 8px;
+}
+#b1:hover{
+    background-color:gold;
+    height: 30px;
+    width: 60px;
+    border-radius: 12.5px;
+}
+#a3{
+    text-align:right ;
+    color:#34a9c9;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:#34a9c9;
+    padding: 6px;
+    display: inline;
+    transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+}
+#a3:hover{
+        text-align:right ;
+        color: black;
+        background-color: #34a9c9;
+        font-size: 25px;
+        text-decoration:none;
+        font-weight: bolder;
+        margin: 20px;
+        border-radius: 10px;
+        border-width: 2px;
+        border-style:solid;
+        border-color: #34a9c9;
+        padding: 6px;
+        display: inline;
+        transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+        box-shadow: 2px 2px 100px +30px #34a9c9;
+}
+#d2{
+    position: relative;
+    top:30%;
+    left: 35%;
+    width:350px;
+}
+input[type="radio"]{
+    display:none ;
+}
+label{
+    position:relative ;
+    color: #34a9c9;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #34a9c9;
+    border-radius: 5px;
+    padding:10px 15px;
+    display: flex;
+    align-items: center;
+}
+label{
+    font-weight: 800;
+}
+label:hover{
+    cursor:cell;
+    background-color: #34a9c9;
+    color: white;
+    animation: dw 5s ease infinite;
+}
+input[type="radio"]:unchecked + label{
+    color: white;
+}
+input[type="radio"]:checked + label{
+    color: white;
+}
+input[type="radio"]:checked + #p700{
+    color: red;
+    box-shadow: 0px 0px 20px +8px silver;
+    background-image: url(https://www.usatoday.com/money/blueprint/images/uploads/2023/12/08113756/GettyImages-1456168733-1-scaled.jpg);
+    animation: none;
+}
+input[type="radio"]:checked + #p1300{
+    color: red;
+    box-shadow: 0px 0px 20px +8px gold;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZ9O4xvazHeY9MAaTfccomlWrYRssL81MIA&s);
+    animation: none;
+}
+input[type="radio"]:checked + #p3500{
+    color: red;
+    box-shadow: 0px 0px 20px +8px ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6u9PEvuRkaY1xqlV19d3sw24JPyAYGUv9Q&s);
+    animation: none;
+}
+input[type="radio"]:checked + #p2400{
+    color: red;
+    box-shadow: 0px 0px 20px +8px paleturquoise;
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5f9e28460a111547872372e5/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds);
+    animation: none;
+}
+#but2{
+    text-align:right ;
+    color:#34a9c9;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+    padding: 6px;
+    display: inline;
+    transition: background-color 1s ease, transform 1s, font-size 1s, margin-left 1s, color 1s, border-color 1s;
+}
+#but2:hover{
+    text-align:right ;
+    color:white;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:black;
+    background-color: #34a9c9;
+    padding: 6px;
+    display: inline;
+    transition: background-color 1s ease, transform 1s, font-size 0.3s, margin-left 1s, color 1s, border-color 1s;
+}
+#he1{
+    display: inline;
+    color: white;
+}
+#he2{
+    display: inline;
+    color: #34a9c9;
+}
+.pl{
+    animation: updown 1s ease infinite alternate;
+    transition: background-color 0.25s, color 0.25s ;
+}
+@keyframes updown {
+    from{
+        scale: 0.9;
+    }
+    to{
+        scale: 1;
+    }
+}
+@keyframes dw {
+    0%,100%{
+        color: red;
+    }
+    10%{
+        color: orange;
+    }
+    20%{
+        color: yellow;
+    }
+    30%{
+        color: yellowgreen;
+    }
+    40%{
+        color: green;
+    }
+    50%{
+        color: skyblue;
+    }
+    60%{
+        color: blue;
+    }
+    70%{
+        color: violet;
+    }
+    80%{
+        color: pink;
+    }
+    90%{
+        color: palevioletred;
+    }
+}
+@media (max-width:600px){
+    .hea{
+        text-align:left;
+        font-size: 13px;
+        margin: 5px;
+        padding: 4px;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    header{
+        width:500px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .hea:hover{
+        text-align: left;
+        font-size: 13px;
+        margin: 4px;
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    #d2{
+        margin-top: 20%;
+        width:50%;
+        }
+    }
+
+

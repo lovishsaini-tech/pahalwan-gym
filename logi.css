@@ -1,0 +1,229 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+#d1{
+    align-items: center;
+    background-color: black;
+    display:block;
+    height: 120px;
+
+}
+#a6{
+    margin-right: 45px;
+}
+.hea{
+    text-align:right ;
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+    padding: 6px;
+    display: inline;
+    transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+}
+.hea:hover{
+    text-align:right ;
+    color: black;
+    background-color: #34a9c9;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: white;
+    padding: 6px;
+    display: inline;
+    transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+    box-shadow: 2px 2px 100px +30px #34a9c9;
+}
+#i1{
+    text-align:right ;
+    color:black;
+    text-decoration:none;;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    border-radius: 12.5px;
+}
+#b1{
+    background-color:gold;
+    height: 25px;
+    border-radius: 12.5px;
+}
+
+#i1:hover{
+    text-align:right ;
+    color:black;
+    text-decoration:none;;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;;
+    border-radius: 8px;
+}
+#b1:hover{
+    background-color:gold;
+    height: 30px;
+    width: 60px;
+    border-radius: 12.5px;
+}
+#a1{
+    text-align:right ;
+    color:#34a9c9;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:#34a9c9;
+    padding: 6px;
+    display: inline;
+    transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+}
+#a1:hover{
+        text-align:right ;
+        color: black;
+        background-color: #34a9c9;
+        font-size: 25px;
+        text-decoration:none;
+        font-weight: bolder;
+        margin: 20px;
+        border-radius: 10px;
+        border-width: 2px;
+        border-style:solid;
+        border-color:#34a9c9;
+        padding: 6px;
+        display: inline;
+        transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s, margin-left 0.3s;
+        box-shadow: 2px 2px 100px +30px #34a9c9;
+}
+.clear{
+    background-color:gold;
+    height: 25px;
+    border-radius: 12.5px;
+}
+.clear:hover{
+    box-shadow: 1px 1px 20px +3px gold;
+}
+.in{
+    text-align:right ;
+    color:black;
+    text-decoration:none;;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    border-radius: 12.5px;
+}
+.in:hover{
+    box-shadow: 0px 0px 50px +5px white;
+    }
+#he1{
+    display: inline;
+    color: white;
+}
+#he2{
+    display: inline;
+    color: #34a9c9;
+}
+.lo{
+    color: white;
+    font-weight: 900;
+}
+#but2{
+    text-align:right ;
+    color:#34a9c9;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+    padding: 6px;
+    display: inline;
+    transition: background-color 1s ease, transform 1s, font-size 1s, margin-left 1s, color 1s, border-color 1s;
+}
+#but2:hover{
+    text-align:right ;
+    color:white;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:black;
+    background-color: #34a9c9;
+    padding: 6px;
+    display: inline;
+    transition: background-color 1s ease, transform 1s, font-size 0.3s, margin-left 1s, color 1s, border-color 1s;
+}
+#d2{
+    text-align: center;
+}
+@media (max-width:600px){
+    .hea{
+        text-align:left;
+        font-size: 15px;
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    header{
+        width:500px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .hea:hover{
+        text-align: left;
+        font-size: 15px;
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    #d2{
+        margin-top: 35px;
+    }
+}
+@media (max-width:465px){
+    #d2{
+        margin-left: 15%;
+    }
+}
+@keyframes anim{
+    from{
+        scale: 0;
+    }
+    to{
+        scale:1;
+    }
+}
+@keyframes anima{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.in{
+    animation: anima 1s linear;
+    animation-timeline:unset;
+    animation-range: appear 2s appear 3s;
+    }
+.lo{
+    animation: anim 0.25s linear;
+    animation-timeline:initial;
+    animation-range: appear 0s appear 0.25s;
+    }
